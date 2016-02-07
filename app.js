@@ -10,4 +10,9 @@ app.controller('main', [
 			{title: 'Link 4', upvotes: 2},
 			{title: 'Link 5', upvotes: 1}
 		];
+
+		$scope.addLink = function() {
+			$scope.links.push({title: $scope.title, upvotes: 0});
+			$scope.title = '';
+		}
 }]);

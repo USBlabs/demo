@@ -8,5 +8,10 @@
 		<div ng-repeat="link in links | orderBy: '-upvotes'">
 			{{link.title}} - upvotes: {{link.upvotes}}
 		</div>
+
+		<form ng-submit="addLink()">
+  			<input type="text" ng-model="title"></input>
+  			<button type="submit">Submit</button>
+		</form>
 	</body>
 </html>
