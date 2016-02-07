@@ -5,6 +5,8 @@
     	<script src="app.js"></script>
 	</head>
 	<body ng-controller="main">
-		<div> {{hello}} </div>
+		<div ng-repeat="link in links">
+		{{link}}
+		</div>
 	</body>
 </html>
