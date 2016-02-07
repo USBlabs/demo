@@ -6,3 +6,6 @@ Here's a list of resources that you can use to learn more about the MEAN stack:
 	* [An introduction to AngularJS](http://www.webdesignerdepot.com/2013/04/an-introduction-to-angularjs/)
 2. Node.JS
 3. MongoDB
+4. Design
+	* [Google Fonts](https://www.google.com/fonts)
+	* [Color Hunt](http://colorhunt.co/)
