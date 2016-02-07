@@ -12,6 +12,7 @@ app.controller('main', [
 		];
 
 		$scope.addLink = function() {
+			if (!$scope.title) { return; }
 			$scope.links.push({title: $scope.title, upvotes: 0});
 			$scope.title = '';
 		}
