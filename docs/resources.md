@@ -1,4 +1,4 @@
-Here's a list of resources that you can use to learn more about the MEAN stack:
+Here's a list of resources that you can use to learn more about the MEAN stack and other things we went over in USB Labs:
 
 1. AngularJS
 	* [AngularJS Docs](https://docs.angularjs.org/api)
