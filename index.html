@@ -2,10 +2,10 @@
 	<head>
 		<title>Link Hunt</title>
 		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
-    	<script src="app.js"></script>
+		<script src="app.js"></script>
 	</head>
 	<body ng-controller="main">
-		<div ng-repeat="link in links">
+		<div ng-repeat="link in links | orderBy: 'upvotes'">
 			{{link.title}} - upvotes: {{link.upvotes}}
 		</div>
 	</body>
