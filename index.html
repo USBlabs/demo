@@ -3,10 +3,13 @@
 		<title>Link Hunt</title>
 		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
 		<script src="app.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	</head>
 	<body ng-controller="main">
 		<div ng-repeat="link in links | orderBy: '-upvotes'">
-			{{link.title}} - upvotes: {{link.upvotes}}
+			<span ng-click="incrementVotes(link)"><i class="fa fa-arrow-up"></i></span>
+			<span ng-click="decrementVotes(link)"><i class="fa fa-arrow-down"></i></span>
+			{{link.title}} - upvotes: {{link.votes}}
 		</div>
 
 		<form ng-submit="addLink()">
