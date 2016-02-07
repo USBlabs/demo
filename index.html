@@ -10,7 +10,7 @@
 	<body ng-controller="main">
 		<div id="container">
 			<h1>Link Hunt</h1>
-			<div ng-repeat="link in links | orderBy: '-upvotes'" class="link">
+			<div ng-repeat="link in links | orderBy: '-votes'" class="link">
 				<div class="voteBox">
 					<div class="arrow" ng-click="incrementVotes(link)"><i class="fa fa-arrow-up"></i></div>
 					<div class="arrow" ng-click="decrementVotes(link)"><i class="fa fa-arrow-down"></i></div>
