@@ -4,10 +4,10 @@ app.controller('main', [
 	'$scope',
 	function($scope){
 		$scope.links = [
-			'link 1',
-			'link 2',
-			'link 3',
-			'link 4',
-			'link 5'
+			{title: 'Link 1', upvotes: 1},
+			{title: 'Link 2', upvotes: 3},
+			{title: 'Link 3', upvotes: 8},
+			{title: 'Link 4', upvotes: 2},
+			{title: 'Link 5', upvotes: 1}
 		];
 }]);
