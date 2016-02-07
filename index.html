@@ -9,11 +9,12 @@
 		<div ng-repeat="link in links | orderBy: '-upvotes'">
 			<span ng-click="incrementVotes(link)"><i class="fa fa-arrow-up"></i></span>
 			<span ng-click="decrementVotes(link)"><i class="fa fa-arrow-down"></i></span>
-			{{link.title}} - upvotes: {{link.votes}}
+			<a href="{{link.url}}">{{link.title}}</a> - upvotes: {{link.votes}}
 		</div>
 
 		<form ng-submit="addLink()">
-  			<input type="text" ng-model="title"></input>
+  			<input type="text" placeholder="Title" ng-model="title"></input><br>
+  			<input type="text" placeholder="Link" ng-model="url"></input><br>
   			<button type="submit">Submit</button>
 		</form>
 	</body>
