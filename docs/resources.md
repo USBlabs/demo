@@ -1,5 +1,5 @@
 # Resources
-	This is a list of resources that we'll be updating as USB-Labs goes on with links to help you learn more about the MEAN stack, the technologies involved with it, and random other shit that we think are relevant.
+This is a list of resources that we'll be updating as USB-Labs goes on with links to help you learn more about the MEAN stack, the technologies involved with it, and random other shit that we think are relevant.
 
 ### 1. AngularJS
 * [AngularJS Docs](https://docs.angularjs.org/api)
