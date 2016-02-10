@@ -7,6 +7,7 @@ Here's a list of resources that you can use to learn more about the MEAN stack a
 2. Node.JS
 	* [The Node Beginner Book](http://www.nodebeginner.org/)
 	* [Node School](http://nodeschool.io/)
+	* [Node.JS Docs](https://nodejs.org/en/docs/)
 	* [What is NPM?](https://docs.npmjs.com/getting-started/what-is-npm)
 	* [Express.JS Fundamentals](http://webapplog.com/express-js-fundamentals/)
 3. MongoDB
