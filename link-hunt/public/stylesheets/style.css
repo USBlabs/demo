@@ -1,0 +1,106 @@
+/* Main */
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ECF0F1;
+	font-family: 'Open Sans', sans-serif;
+}
+#container {
+	width: 65%;
+	margin: 0 auto;
+	padding: 30px;
+}
+.clear {
+	clear: both;
+}
+
+/* Page Titles */
+#container h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2em;
+	color: #454553;
+}
+#container h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	background-color: #34495E;
+	padding: 10px 0;
+	border-radius: 3px;
+	color: #FFFFFF;
+	margin: 75px 0 0 0;
+}
+
+
+/* Individual Links */
+#container .link {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+#container .link a.title {
+	font-weight: 600;
+	font-size: 1.2em;
+	color: #3498DB;
+	text-decoration: none;
+}
+#container .link a.title:hover {
+	color: #34495E;
+}
+
+/* Upvotes & downvotes */
+#container .link .voteBox {
+	float: left;
+}
+#container .link .voteBox .arrow {
+	color: #F8C957;
+}
+#container .link .voteBox .arrow:hover {
+	color: #3498DB;
+	cursor: pointer;
+}
+#container .link .voteCount {
+	margin-left: 5px;
+	color: #CCCCCC;
+	font-weight: 600;
+}
+
+
+/* Add Link */
+#container .addLink {
+	padding-top: 20px;
+}
+#container .addLink .input-group {
+	margin: 15px 0;
+	border-radius: 3px;
+}
+#container .addLink .input-group .icon {
+	border-radius: 3px 0 0 3px;
+	padding: 13px;
+	background-color: #F8C957;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	color: #FFFFFF;
+}
+#container .addLink input {
+	width: 40%;
+	border: 0;
+	outline: 0;
+	padding: 15px;
+	border-radius: 0 3px 3px 0;
+}
+#container .addLink button {
+	background-color: #34495E;
+	border: 0;
+	padding: 10px 15px;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 3px;
+}
+#container .addLink button:hover {
+	cursor: pointer;
+	background-color: #3498DB;
+}
