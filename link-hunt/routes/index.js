@@ -11,6 +11,16 @@ router.get('/links', function(req, res, next) {
   });
 });
 
+router.post('/links', function(req, res, next) {
+  var link = new Link(req.body);
+
+  link.save(function(err, post){
+    if(err){ return next(err); }
+
+    res.json(link);
+  });
+});
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
