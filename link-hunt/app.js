@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 
 //MongoDB
 var mongoose = require('mongoose');
+require('./models/Links');
 mongoose.connect('mongodb://localhost/links');
 
 var routes = require('./routes/index');
