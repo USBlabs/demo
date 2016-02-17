@@ -21,6 +21,22 @@ router.post('/links', function(req, res, next) {
   });
 });
 
+router.param('link', function(req, res, next, id) {
+  var query = Link.findById(id);
+
+  query.exec(function (err, link){
+    if (err) { return next(err); }
+    if (!link) { return next(new Error('can\'t find post')); }
+
+    req.link = link;
+    return next();
+  });
+});
+
+router.get('/links/:link', function(req, res) {
+  res.json(req.link);
+});
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
