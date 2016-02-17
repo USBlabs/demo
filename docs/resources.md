@@ -14,6 +14,7 @@ This is a list of resources that we'll be updating as USB-Labs goes on with link
 * [Express.JS Fundamentals](http://webapplog.com/express-js-fundamentals/)
 
 ### 3. MongoDB
+* [The Little MongoDB Book] (http://openmymind.net/mongodb.pdf)
 
 ### 4. Other
 * [Sublime Text](https://www.sublimetext.com/)
